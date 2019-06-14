@@ -7,8 +7,8 @@ public class PNumber {
 
         while (true) {
             Random randomNumber = new Random();
-
-            System.out.println("Enter your preferred option(Random/Input): ");
+            System.out.println("This program will print out prime numbers based on option selected.");
+            System.out.println("Enter your preferred option (Random or Input): ");
             String reader = keyboard.nextLine();
 
             if (reader.equalsIgnoreCase("random")) {
