@@ -38,10 +38,10 @@ public class PNumber {
 
                     if (prime == 0) {
                         System.out.println(uNum + " Not a Prime Number");
-                        break;
+
                     } else if (i == (uNum -1) && i !=2) {
                         System.out.println(uNum + " Prime Number");
-                        break;
+
                     }
                 }
             }
